@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-navbar{
+    width: 90;
+    height: 12vh;
+    background-color: #87686826;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.top-icons{
+    margin-left: 45px;
+}
+.top-icons i{
+    font-size: 10px;
+    color: rgb(230, 239, 246);
+    margin-left: 10px;
+    cursor: pointer;
+}
+.other-links{
+    margin-right: 33px;
+}
+.other-links i{
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    cursor: progress;
+}
+#btn-login{
+    width: 100px;
+    border: 2px solid rgb(162, 175, 186);
+    color: rgb(162, 175, 186);
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-login a{
+    text-orientation: none;
+    color: rgb(72, 124, 169);
+    transition: 0.5s ease;
+}
+#btn-login a:hover{
+    background-color:rgb(162, 175, 186) ;
+    color: white;
+}
+#btn-login:hover{
+    background-color: rgb(162, 175, 186);
+    color: white;
+}
+#btn-Register{
+    width: 210px;
+    border: 2px solid rgb(162, 175, 186);
+    color: rgb(162, 175, 186);
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-Register a{
+    text-orientation: none;
+    color: rgb(72, 124, 169);
+    transition: 0.5s ease;
+}
+#btn-Register a:hover{
+    background-color:rgb(162, 175, 186);
+    color: white;
+}
+#btn-Register:hover{
+    background-color: rgb(162, 175, 186);
+    color: white;
+}
+@media screen and (max-width:500px){
+    .top-icons{
+        max-width: 30px;
+    }
+    .top-icons i{
+        font-size: 15px;
+    }
+    .other-links i{
+        font-size: 15px;
+    }
+    #btn-login{
+        width: 60px;
+        height: 5vh;
+    }
+    #btn-Register{
+        width: 250px;
+        height: 5vh;
+    }
+}
+@media screen and (max-width:350px){
+    .top-icons{
+        max-width: 5px;
+    }
+    .top-icons i{
+        font-size: 12px;
+    }
+    .other-links{
+        margin-right:10px ;
+    }
+    .other-links i{
+        font-size: 12px;
+    }
+    #btn-login{
+        width: 40px;
+        height: 5vh;
+        font-size: 10px;
+    }
+    #btn-Register{
+        width: 50px;
+        height: 5vh;
+        font-size: 10px;
+    }
+}
+/* home section */
+.home section{
+    width: 100;
+    height: 93vh;
+    background-color: #776f6f26;
+}
+/* navbar*/
+#navbar{
+    background-color: rgb(224, 230, 237);
+    font-size: 16px;
+    font-family: 'Roboto', serif;
+}
+#navbar .nav-link{
+    color:black;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+}
+#navbar .nav-link:hover{
+    color: black;
+    border-radius: 5px;
+}
+.dropdwon li a{
+    color: black;
+}
+#search-btn{
+    color: black;
+    border: 1px solid black;
+}
+#search-btn:hover{
+    background-color: rgb(162, 175, 186);
+}
+/* navbar*/
+/* home content */
+  .home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    font-family: 'Roboto', serif;
+  }
+  .home .img{
+    flex: 1 1 1 500px;
+  }
+  .home .img img{
+    width: 100%;
+  }
+  .home .content{
+    flex: 1 1 400px;
+    margin-top: 30px;
+  }
+  .content h3{
+    margin-left: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    color:rgb(8, 52, 89);
+    font-weight: bold;
+  }
+  .content h3 span{
+    font-size: 30px;
+  }
+  .content p{
+    font-size: medium;
+    margin-left: 70px;
+    color: rgd(8, 52, 89);
+  }
+  .content #Registrationhere{
+    margin-left: 70px;
+    width: 200px;
+    height: 38px;
+    border: 2px solid rgb(8, 52, 89);
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  .content #Registrationhere{
+    background-color: rgb(162, 175, 186);
+    color: white;
+  }
+/* home content */
+/* home section */
+/* footer */
+#footer{
+    padding: 0 0 30px 0;
+    color: rgb(113, 107, 148);
+    font-size: 14px;
+    background-color:rgb(162, 175, 186);
+    font-family: 'Kanit', sans-serif;
+}
+#footer .footer-top{
+    padding: 60px 0 30px;
+    background-color:rgb(199, 208, 215);
+    color: rgb(12, 12, 12);
+}
+#footer .footer-top .footer-contact h3{
+    color: rgb(30, 28, 28);;
+    text-shadow: 1px 1px 1px black;
+}
+#footer .footer-top .footer-contact h4{
+    font-size: 22px;
+    margin: 0 0 300px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-family: 750;
+}
+#footer .footer-top .footer-contact p{
+    font-size: 14px;
+    margin: 0;
+    color: rgb(30, 28, 28);
+    line-height: 1;
+    font-family: 750;
+}
+/* footer */
+/* Startup */
+.Startup{
+    width: 100;
+    height: 98vh;
+    background-color: rgb(255, 255, 255);
+}
+.Startup{
+    display: flex ruby-base;
+    align-items: flex-start;
+    justify-self: center;
+    flex-wrap: wrap;
+    position: static;
+    z-index: 10;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Startup .img{
+    flex: 1 1 1 900px;
+}
+.Startup .img img{
+    width: 100%;
+}
+.content h2{
+    margin-left: 70px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px rgb(66, 57, 75);
+    color: rgb(107, 132, 159)
+}
+.Startup p{
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 100px;
+    color: lightslategrey;
+}
+/* Startup */
+/* ITR */
+.ITR{
+    width: 100;
+    height: 98vh;
+    background-color: rgb(255, 255, 255);
+}
+.ITR p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0px;
+    font-size: medium;
+    margin-left: 100px;
+    color: rgb(27, 34, 38);
+}
+/* ITR */
+/* tax */
+/* tax */
+
+    
+    
